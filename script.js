@@ -90,7 +90,7 @@ function drawText() {
   if (frameNumber < 300) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "Heyy Kriti , Its feels like a dream having you in my life",
+      "Heyy Kriti , Its a dream to have you",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -100,7 +100,7 @@ function drawText() {
   if (frameNumber >= 300 && frameNumber < 600) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "Heyy Kriti , Its feels like a dream having you in my life",
+      "Heyy Kriti , Its a dream to have you",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -116,7 +116,7 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["amoYou came into my life with all the love I always dreamt of , and made me yours"],
+        ["came into my life with all the love I always dreamt of "],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -124,7 +124,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "You came into my life with all the love I always dreamt of , and made me yours",
+        "came into my life with all the love I always dreamt of ",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -137,7 +137,7 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["You came into my life with all the love I always dreamt of , and made me yours"],
+        ["came into my life with all the love I always dreamt of "],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -145,7 +145,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "You came into my life with all the love I always dreamt of , and made me yours",
+        "came into my life with all the love I always dreamt of ",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -160,7 +160,7 @@ function drawText() {
   if (frameNumber > 1200 && frameNumber < 1500) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "to be yours is all i want my entire life , loving you , taking care of you , having you in my arms",
+      "wanna spend my entire life , loving you , taking care of you ",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -169,7 +169,7 @@ function drawText() {
   if (frameNumber >= 1500 && frameNumber < 1800) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "to be yours is all i want my entire life , loving you , taking care of you , having you in my arms",
+      "wanna spend my entire life , loving you , taking care of you",
       canvas.width / 2,
       canvas.height / 2
     );
